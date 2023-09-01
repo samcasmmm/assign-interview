@@ -1,0 +1,36 @@
+.searchSortHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+.searchSortHeader .relevancy {
+  width: 50%;
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.searchSortHeader .search {
+  width: 50%;
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+@media (max-width: 767px) {
+  .searchSortHeader {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .searchSortHeader .relevancy {
+    order: 2;
+    width: 100%;
+  }
+  .searchSortHeader .search {
+    order: 1;
+    width: 100%;
+  }
+}
