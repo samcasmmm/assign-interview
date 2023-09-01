@@ -6,7 +6,6 @@ function App() {
     <>
       <Navbar />
       <main>
-        <h1>App</h1>
         <SearchSortHeader />
       </main>
     </>
