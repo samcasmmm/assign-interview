@@ -12,6 +12,11 @@ body {
 }
 main {
   margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  min-height: 90vh;
 }
 
 @media (max-width: 768px) {
